@@ -1,0 +1,5 @@
+[2015-08-25 00:03:21,930] INFO Closing socket connection to /192.168.1.106. (kafka.network.Processor)
+[2015-08-25 00:06:10,499] INFO Closing socket connection to /127.0.0.1. (kafka.network.Processor)
+[2015-08-25 00:06:10,584] INFO Closing socket connection to /192.168.1.106. (kafka.network.Processor)
+[2015-08-25 00:08:38,194] INFO [Kafka Server 0], shutting down (kafka.server.KafkaServer)
+[2015-08-25 00:08:38,195] INFO [Kafka Server 0], Starting controlled shutdown (kafka.server.KafkaServer)
