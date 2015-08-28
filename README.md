@@ -5,15 +5,18 @@ Kafka ZooKeeper Broker servers… Kafka requires Zookeeper, so start ZooKeeper f
 Starting
 ========
 
-ZooKeeper
+**ZooKeeper**
 
-    Open terminal execute... 
+Open terminal execute... 
     
     > ./zookeeper.sh	 
 
-Kafka
+**Kafka**
 
-    Open terminal execute…
+Open terminal execute…
     > ./kafka.sh
 
+Build Docker Files
+==================
 
+    > ./build.sh
