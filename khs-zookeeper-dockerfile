@@ -1,0 +1,13 @@
+FROM minimal_java
+MAINTAINER Joseph Post
+
+WORKDIR /khs-kafka
+ADD . .
+
+# Bash required for kafka/zookeeper scripts.
+RUN apk add bash
+
+EXPOSE 2181 2888 3888
+
+CMD ["/khs-kafka/zookeeper.sh"]
+
